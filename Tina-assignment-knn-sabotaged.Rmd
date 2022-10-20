@@ -126,3 +126,6 @@ CrossTable(x=as.matrix(test_labels), y=cleanDF_test_pred, prop.chisq=FALSE)
 The total accuracy of the model is 92%, no cases of False Positives (FP), 9 cases of False Negatives (FN), meaning 9 cases were actually Cannot give blood in nature but got predicted as Blood Donor. This is considered risky in the case of a medical model
 
 ## Reviewer
+line 32: read.csv -> read_csv
+line 67: cleanDF1 -> clean DF2
+line 91: 2 ->4
